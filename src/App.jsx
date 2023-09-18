@@ -10,7 +10,11 @@ function App() {
         Navbar Price Style with React
       </h1>
       <Navbar></Navbar>
-      <Card></Card>
+      <div className='grid grid-cols-3'>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+      </div>
     </>
   )
 }
