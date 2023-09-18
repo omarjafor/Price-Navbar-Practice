@@ -1,5 +1,6 @@
 import './App.css'
 import Card from './Card'
+import Navbar from './Navbar'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
       <h1 className="text-3xl text-black font-bold rounded-lg py-2 bg-lime-600">
         React Navbar Price 
       </h1>
+      <Navbar></Navbar>
       <Card></Card>
     </>
   )
