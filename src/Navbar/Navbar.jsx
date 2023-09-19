@@ -1,7 +1,9 @@
+import { useState } from "react";
 import Link from "../Link/Link";
-import { HiMenuAlt1 } from 'react-icons/hi';
+import { HiMenuAlt1, HiX } from 'react-icons/hi';
 
 const Navbar = () => {
+    const [open, setOpen] = useState(false)
     const routes = [
         { id: 1, path: '/', name: 'Home' },
         { id: 2, path: '/about', name: 'About' },
@@ -29,7 +31,13 @@ const Navbar = () => {
         //     </div>
         // </div>
         <nav>
-            <HiMenuAlt1 className="text-2xl md:hidden"></HiMenuAlt1>
+            <div className="md:hidden" onClick={ ()=> setOpen(!open) }>
+                {
+                    open === true ? <HiX className="text-2xl"></HiX> : <HiMenuAlt1 className="text-2xl"></HiMenuAlt1>
+                }
+                
+                
+            </div>
             <ul className="md:flex">
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
