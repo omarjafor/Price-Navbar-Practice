@@ -1,7 +1,7 @@
 const Feature = ({feature}) => {
     return (
         <div>
-            <p> {feature} </p>
+            <p className="m-3"> {feature} </p>
         </div>
     );
 };
