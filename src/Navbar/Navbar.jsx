@@ -19,7 +19,7 @@ const Navbar = () => {
                     open === true ? <HiX></HiX> : <HiMenuAlt1></HiMenuAlt1>
                 }
             </div>
-            <ul className={`md:flex pl-3 py-3 rounded-xl absolute bg-lime-400 ${open? '' : 'hidden'} `}>
+            <ul className={`md:flex duration-1000 pl-3 py-3 md:justify-center rounded-xl absolute md:static bg-lime-400 ${open? 'top-26' : '-top-60'} `}>
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
