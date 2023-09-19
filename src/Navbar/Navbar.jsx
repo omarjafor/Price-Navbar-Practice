@@ -21,8 +21,6 @@ const Navbar = () => {
         //         <div className="navbar-center hidden lg:flex">
         //             <ul className="menu menu-horizontal px-1">
         //                 <li><a>Home</a></li>
-        //                 <li><a>Shoes</a></li>
-        //                 <li><a>Store</a></li>
         //             </ul>
         //         </div>
         //         <div className="navbar-end">
