@@ -18,9 +18,6 @@ const Navbar = () => {
         //         <div className="navbar-start">
         //             <a className="btn btn-ghost normal-case text-xl">OmarJafor</a>
         //         </div>
-        //         <div className="navbar-center hidden lg:flex">
-        //             <ul className="menu menu-horizontal px-1">
-        //                 <li><a>Home</a></li>
         //             </ul>
         //         </div>
         //         <div className="navbar-end">
