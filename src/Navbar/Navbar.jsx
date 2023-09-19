@@ -15,9 +15,7 @@ const Navbar = () => {
     return (
         // <div>
         //     <div className="navbar bg-base-100">
-        //         < className="navbar-start">
-        //             <a className="btn btn-ghost normal-case text-xl">OmarJafor</a>
-        //         
+        //         < className="n
         //         </div>
         //     </div>
         // </div>
