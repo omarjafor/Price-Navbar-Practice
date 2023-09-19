@@ -13,13 +13,13 @@ const Navbar = () => {
     ];
 
     return (
-        <nav>
+        <nav className="">
             <div className="md:hidden text-2xl" onClick={ ()=> setOpen(!open) }>
                 {
                     open === true ? <HiX></HiX> : <HiMenuAlt1></HiMenuAlt1>
                 }
             </div>
-            <ul className={`md:flex duration-1000 pl-3 py-3 md:justify-center rounded-xl absolute md:static bg-lime-400 ${open? 'top-26' : '-top-60'} `}>
+            <ul className={`md:flex duration-1000 pl-3 py-3 md:justify-center rounded-xl absolute md:static bg-lime-400 ${open? 'top-28' : '-top-60'} `}>
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
