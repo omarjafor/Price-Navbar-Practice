@@ -1,4 +1,5 @@
 import Link from "../Link/Link";
+import { HiMenuAlt1 } from 'react-icons/hi';
 
 const Navbar = () => {
     const routes = [
@@ -28,6 +29,7 @@ const Navbar = () => {
         //     </div>
         // </div>
         <nav>
+            <HiMenuAlt1 className="text-2xl md:hidden"></HiMenuAlt1>
             <ul className="md:flex">
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
