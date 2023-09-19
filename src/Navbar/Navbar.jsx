@@ -15,11 +15,9 @@ const Navbar = () => {
     return (
         // <div>
         //     <div className="navbar bg-base-100">
-        //         <div className="navbar-start">
+        //         < className="navbar-start">
         //             <a className="btn btn-ghost normal-case text-xl">OmarJafor</a>
-        //         </div>
-        //             </ul>
-        //         </div>
+        //         
         //         <div className="navbar-end">
         //             <a className="btn">Button</a>
         //         </div>
