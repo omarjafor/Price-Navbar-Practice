@@ -18,8 +18,6 @@ const Navbar = () => {
         //         < className="navbar-start">
         //             <a className="btn btn-ghost normal-case text-xl">OmarJafor</a>
         //         
-        //         <div className="navbar-end">
-        //             <a className="btn">Button</a>
         //         </div>
         //     </div>
         // </div>
