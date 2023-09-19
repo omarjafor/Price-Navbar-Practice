@@ -15,8 +15,6 @@ const Navbar = () => {
     return (
         // <div>
         //     <div className="navbar bg-base-100">
-        //         < className="n
-        //         </div>
         //     </div>
         // </div>
         <nav>
