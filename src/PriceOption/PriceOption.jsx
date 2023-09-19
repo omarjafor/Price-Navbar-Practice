@@ -1,11 +1,17 @@
+import Feature from "./Feature";
+
 const PriceOption = ({ option }) => {
-    const {name, price, feature} = option;
+    const {name, price, features} = option;
     return (
-        <div>
-            <h2>
+        <div className="bg-lime-800 text-white rounded-lg py-4">
+            <h2 className="font-bold mb-3">
                 <span className="text-4xl"> {price} </span>
             </h2>
-            <h4 className="text-3xl"> {name} </h4>
+            <h4 className="text-2xl font-bold"> {name} </h4>
+            {
+                features.map((feature, idx) => <Feature key={idx} feature={feature}
+                ></Feature>)
+            }
         </div>
     );
 };
