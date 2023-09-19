@@ -1,7 +1,7 @@
 import './App.css'
 // import Card from './Card'
 import Navbar from './Navbar/Navbar'
-import PriceOption from './PriceOption/PriceOption'
+import PriceOption from './PriceOption/PriceOptions'
 
 function App() {
 
