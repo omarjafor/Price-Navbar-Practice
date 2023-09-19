@@ -1,6 +1,6 @@
 import './App.css'
 import Card from './Card'
-import Navbar from './Navbar'
+import Navbar from './Navbar/Navbar'
 
 function App() {
 

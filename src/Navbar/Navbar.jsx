@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            {/* <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <a className="btn btn-ghost normal-case text-xl">OmarJafor</a>
                 </div>
@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <a className="btn">Button</a>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
