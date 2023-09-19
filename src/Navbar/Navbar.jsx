@@ -36,7 +36,7 @@ const Navbar = () => {
                     open === true ? <HiX></HiX> : <HiMenuAlt1></HiMenuAlt1>
                 }
             </div>
-            <ul className="md:flex absolute bg-lime-400">
+            <ul className={`md:flex pl-3 py-3 rounded-xl absolute bg-lime-400 ${open? '' : 'hidden'} `}>
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }

@@ -1,5 +1,5 @@
 import './App.css'
-import Card from './Card'
+// import Card from './Card'
 import Navbar from './Navbar/Navbar'
 
 function App() {
@@ -10,11 +10,11 @@ function App() {
         Navbar Price Style with React
       </h1>
       <Navbar></Navbar>
-      <div className='grid grid-cols-3'>
+      {/* <div className='grid grid-cols-3'>
         <Card></Card>
         <Card></Card>
         <Card></Card>
-      </div>
+      </div> */}
     </>
   )
 }
