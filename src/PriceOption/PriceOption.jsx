@@ -1,4 +1,4 @@
-const PriceOption = () => {
+const PriceOption = ({ option }) => {
     return (
         <div>
             
