@@ -31,14 +31,12 @@ const Navbar = () => {
         //     </div>
         // </div>
         <nav>
-            <div className="md:hidden" onClick={ ()=> setOpen(!open) }>
+            <div className="md:hidden text-2xl" onClick={ ()=> setOpen(!open) }>
                 {
-                    open === true ? <HiX className="text-2xl"></HiX> : <HiMenuAlt1 className="text-2xl"></HiMenuAlt1>
+                    open === true ? <HiX></HiX> : <HiMenuAlt1></HiMenuAlt1>
                 }
-                
-                
             </div>
-            <ul className="md:flex">
+            <ul className="md:flex absolute bg-lime-400">
                 {
                     routes.map(route => <Link key={route.id} route={route}></Link>)
                 }
