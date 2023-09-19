@@ -13,10 +13,6 @@ const Navbar = () => {
     ];
 
     return (
-        // <div>
-        //     <div className="navbar bg-base-100">
-        //     </div>
-        // </div>
         <nav>
             <div className="md:hidden text-2xl" onClick={ ()=> setOpen(!open) }>
                 {
