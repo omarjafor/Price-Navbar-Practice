@@ -14,7 +14,7 @@ const PriceOption = ({ option }) => {
                     ></Feature>)
                 }
             </div>
-            <button className="bg-fuchsia-600 w-2/4 rounded-xl p-3 font-bold">Subscribe Now</button>
+            <button className="bg-teal-800 w-2/4 rounded-xl p-3 font-bold">Subscribe Now</button>
         </div>
     );
 };
