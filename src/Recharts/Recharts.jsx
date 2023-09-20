@@ -18,9 +18,9 @@ const Recharts = () => {
 
     return (
         <div>
-            <LineChart width={400} height={400} data={studentData}>
+            <LineChart width={800} height={400} data={studentData}>
                 <XAxis dataKey='id'></XAxis>
-                <YAxis dataKey={name}></YAxis>
+                <YAxis ></YAxis>
                 <Line type="monotone" dataKey="Math" stroke="green" strokeDasharray="5 5" />
                 <Line type="monotone" dataKey="Science" stroke="green" strokeDasharray="3 4 5 2" />
                 <Line type="monotone" dataKey="English" stroke="green" />
